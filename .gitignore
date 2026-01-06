@@ -1,0 +1,23 @@
+# Python byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# JAX & XLA (Compilation cache)
+.jax_cache/
+*.nvcomp
+*.log
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# Virtual OS files
+.DS_Store
+Thumbs.db
